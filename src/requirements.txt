@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pandas
+gspread
+google-auth
+lxml
+html5lib

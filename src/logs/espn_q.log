@@ -1,0 +1,47 @@
+INFO:root:Game IDs for 20240526: ['401620247', '401620248']
+INFO:root:Game IDs for 20240526: ['401620248', '401620247']
+INFO:root:Game IDs for 20240526: ['401620248', '401620247']
+INFO:root:Game IDs for 20240526: ['401620248', '401620247']
+INFO:root:Game IDs for 20240526: ['401620248', '401620247']
+INFO:root:Game IDs for 20240526: ['401620247', '401620248']
+INFO:root:Game IDs for 20240526: ['401620248', '401620247']
+INFO:root:Game IDs for 20240526: ['401620247', '401620248']
+INFO:root:Game IDs for 20240526: ['401620247', '401620248']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Data appended to Google Sheet successfully!
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Data appended to Google Sheet successfully!
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Credentials path: /app/../resources/credentials.json
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Credentials path: /app/../resources/credentials.json
+INFO:root:Credentials path: /app/../resources/credentials.json
+INFO:root:Error appending data: [Errno 2] No such file or directory: '/app/../resources/credentials.json'
+INFO:root:Game IDs for 20240524: ['401620241']
+INFO:root:Box score for game ID 401620241 added to DataFrame
+INFO:root:Credentials path: /app/../resources/credentials.json
+INFO:root:Credentials path: /app/../resources/credentials.json
+INFO:root:Using alternative credentials path: /app/resources/credentials.json
+INFO:root:Data appended to Google Sheet successfully!
