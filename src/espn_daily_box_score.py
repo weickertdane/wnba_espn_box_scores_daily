@@ -54,6 +54,8 @@ def get_daily_game_ids():
     return game_ids, yesterday_date
 
 def get_box_score(game_ids, yesterday_date):
+    # Convert yesterday_date to 'YYYY-MM-DD' format
+    formatted_date = datetime.datetime.strptime(yesterday_date, '%Y%m%d').strftime('%Y-%m-%d')
 
     # Create an empty DataFrame to store the box score data
     box_scores = []
@@ -68,7 +70,7 @@ def get_box_score(game_ids, yesterday_date):
         # Assuming the box score table is structured with team names in the first column and quarter scores in subsequent columns
         row_data = {
             #'date': datetime.datetime.now().strftime('%Y-%m-%d'),
-            'date': yesterday_date,
+            'date': formatted_date,
             'game_id': game_id,
             'away_team': box_score.iloc[0, 0],
             'home_team': box_score.iloc[1, 0],

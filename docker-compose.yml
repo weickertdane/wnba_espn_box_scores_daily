@@ -3,10 +3,12 @@ version: '3.9'
 services:
   wnba_scraper:
     build:
-      context: ./src
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: src/Dockerfile
     volumes:
       - ./resources:/app/resources
       - ./src/logs:/app/logs
     environment:
       - GOOGLE_APPLICATION_CREDENTIALS=/app/resources/credentials.json
+
+
