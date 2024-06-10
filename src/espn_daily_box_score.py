@@ -16,15 +16,9 @@ log_file_path = os.path.join(os.path.dirname(__file__), 'logs', 'espn_daily_box_
 logging.basicConfig(filename=log_file_path, level=logging.INFO)
 
 def get_daily_game_ids():
-    #current_date = datetime.datetime.now().strftime('%Y%m%d')
     yesterday_date = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y%m%d')
 
     print("yesterday_date: ", yesterday_date)
-    #target_date = '2024-05-25'
-    #REMOVE "-" FROM target_date
-    #target_date_formatted = target_date.replace("-", "")
-    #url = 'https://www.espn.com/wnba/scoreboard/_/date/20240522'
-    #url = 'https://www.espn.com/wnba/scoreboard/_/date/' + target_date_formatted
     url = 'https://www.espn.com/wnba/scoreboard/_/date/' + yesterday_date
     headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'}
@@ -69,7 +63,6 @@ def get_box_score(game_ids, yesterday_date):
         # Extract the necessary columns for quarter scores
         # Assuming the box score table is structured with team names in the first column and quarter scores in subsequent columns
         row_data = {
-            #'date': datetime.datetime.now().strftime('%Y-%m-%d'),
             'date': formatted_date,
             'game_id': game_id,
             'away_team': box_score.iloc[0, 0],
@@ -132,10 +125,6 @@ def main():
     box_scores = get_box_score(game_ids, yesterday_date)
 
     # Update credentials path here (replace with your actual path)
-
-
-    #credentials_path = '/Users/daneweickert/Library/CloudStorage/GoogleDrive-weickertdane99@gmail.com/My Drive/Work/sports_betting/making_bets/engineering/scrapers/WNBA/credentials.json'
-    #credentials_path = '../resources/credentials.json'
     credentials_path = os.path.join(os.path.dirname(__file__), '..', 'resources', 'credentials.json')
     
     # Print the credentials path to debug
